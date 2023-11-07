@@ -1,0 +1,103 @@
+nav {
+  border-bottom: 3px solid black;
+}
+
+#home,
+#about,
+#certificate,
+#portfolio,
+#suggestion,
+#contact {
+  color: black;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: orange;
+}
+
+.navbar {
+  background-color: yellow;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.jumbotron img {
+  width: 200px;
+  margin: 20px 60px 20px 60px;
+}
+
+#homepage,
+#myCertificate,
+#suggest {
+  background-color: orange;
+}
+
+#aboutMe,
+#myPortfolio,
+#myQuoteOfTheDay {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.btn:hover,
+.accordion-btn:hover,
+.submit:hover {
+  font-weight: bold;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+svg {
+  margin-bottom: -1px;
+}
+
+.accordion-btn {
+  background-color: orange;
+}
+
+.accordion-btn a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-floating {
+  text-align: center;
+}
+
+.submit {
+  font-size: 100%;
+  background-color: orange;
+  border: 2px solid black;
+}
+
+@media screen and (min-width: 100px) {
+  .close {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .close {
+    display: block;
+  }
+}
